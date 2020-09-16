@@ -1,0 +1,27 @@
+{
+  "name": "akshay",
+  "dependencies": {
+    "init": "^0.1.2",
+    "jasmine-data-provider": "^2.2.0",
+    "protractor": "^5.4.3",
+    "protractor-jasmine2-html-reporter": "0.0.7"
+  },
+  "scripts": {
+    "webdriver-update": "webdriver-manager update",
+    "webdriver-start": "webdriver-manager start",
+    "protractor": "protractor conf.js",
+    "start": "npm run webdriver-update && npm run webdriver-start && npm run protractor"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "version": "1.0.0",
+  "main": "Autoreplenish.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
