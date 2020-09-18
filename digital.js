@@ -8,7 +8,7 @@ describe('fundtestsuite', function() {
   var path = require("path");
 
   var remote = require("C:/Users/revathip/AppData/Roaming/npm/node_modules/protractor/node_modules/selenium-webdriver/remote");  
-  
+  const fs = require('fs');
   beforeEach(function() {
     var EC = protractor.ExpectedConditions;
 
@@ -143,7 +143,7 @@ browser.setFileDetector(new remote.FileDetector());
       obj.getURL1();
       browser.sleep(8000);
       
-     var fileToUpload = 'C:/Users/Ranjitha/Downloads/351445.png';
+     var fileToUpload = 'C:/Users/revathip/Desktop/351445.png';
      absolutePath = path.resolve(__dirname,fileToUpload);
 
 
@@ -296,4 +296,4 @@ obj.remove.click().then(function(){
 
 });
 
-});
+    });

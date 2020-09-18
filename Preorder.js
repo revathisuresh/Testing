@@ -64,6 +64,7 @@
                                   
                            });*/
         expect((obj.Dashboard).isPresent()).toBe(true);
+        browser.sleep(5000);
   
          obj.preorder.click().then(function(){
                 browser.sleep(15000);
